@@ -3,4 +3,7 @@
     <% docs.forEach(function(doc){ %>
         <h3><a href="/<%= doc.id %>"><%= doc.title %></a></h3>
     <% }); %>
+
+    <br><br>
+    <a href="/create">Skapa nytt dokument</a>
 <%- include('includes/footer'); %>
